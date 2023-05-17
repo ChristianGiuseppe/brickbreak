@@ -7,7 +7,7 @@ class ArenaComponent extends BodyComponent<Forge2dGameWorld> {
   Vector2? size;
   late Vector2 arenaSize;
 
-  //viene chiamato prima createBodyper consentire qualsiasi inizializzazione che potrebbe essere necessario eseguire. Qui ottieni la dimensione dell'area visibile nelle coordinate mondiali di Forge2D. Imparerai di più sulle coordinate del mondo nella prossima sezione.
+  //viene chiamato prima createBodyper consentire qualsiasi inizializzazione che potrebbe essere necessario eseguire. Qui ottieni la dimensione dell'area visibile nelle coordinate mondiali di Forge2D.
   @override
   Future<void> onLoad() {
     arenaSize = size ?? gameRef.size;

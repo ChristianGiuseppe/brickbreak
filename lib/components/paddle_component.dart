@@ -146,7 +146,6 @@ class PaddleComponent extends BodyComponent<Forge2dGameWorld> with Draggable {
   }
 
   // 6
-  // Clear the drag position accumulator and remove the mouse joint.
   void _resetDragControls() {
     dragAccumlativePosition = Vector2.zero();
     if (_mouseJoint != null) {

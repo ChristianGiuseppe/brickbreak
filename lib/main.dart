@@ -4,11 +4,11 @@ import 'package:brickbreak/world/forge_2d_game_world.dart';
 import 'ui/overlay_builder.dart';
 
 void main() {
-  runApp(const BrickBrakeAPP());
+  runApp(const BrickBreakAPP());
 }
 
-class BrickBrakeAPP extends StatelessWidget {
-  const BrickBrakeAPP({super.key});
+class BrickBreakAPP extends StatelessWidget {
+  const BrickBreakAPP({super.key});
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
